@@ -35,7 +35,7 @@
 
 	var button2=document.createElement("input");
     button2.type="button";
-    button2.value="Toggle Embeded Frame";
+    button2.value="Toggle Embedded Frame";
     button2.onclick = function ButtonFunc() {
         $('div.chat-embed').toggle();
     };
